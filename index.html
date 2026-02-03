@@ -2,41 +2,46 @@
 <html>
 <head>
     <title>Little Crafters University - Kids Creative School</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Place image files in `images/` at the project root: LOGO.jpeg, banner.jpg,
+         art.jpg, crafts.jpg, music.jpg, gallery1.jpg ... gallery6.jpg -->
     <nav class="navbar">
         <div class="logo-container">
-            <img src="LOGO.jpeg" alt="Little Crafters University Logo" class="logo-img">
-            <h2 class="logo">LITTLE CRAFTERS UNIVERSITY</h2>
+            <img src="images/LOGO.jpeg" alt="Little Crafters University Logo" class="logo-img">
+            <h2 class="logo"><a href="#home">LITTLE CRAFTERS UNIVERSITY</a></h2>
         </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Programs</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+        <a class="cta" href="#contact">Enroll Now</a>
     </nav>
 
     <div class="hero">
-        <img src="https://via.placeholder.com/800x400" alt="Kids Learning Banner" class="banner-image">
-        <h1>Little Crafters University</h1>
-        <p>Where imagination and creativity come to life for kids of all ages</p>
+        <img src="images/banner.jpg" alt="Kids Learning Banner" class="banner-image">
+        <h1><a href="#home"><span class="rainbow">Little Crafters</span></a> University</h1>
+        <p class="lead">Where imagination and creativity come to life for kids of all ages</p>
     </div>
 
     <section class="services" id="services">
         <h2>Our Programs</h2>
         <div class="service-card">
-            <img src="https://via.placeholder.com/300x200" alt="Art & Painting">
+            <img src="images/art.jpg" alt="Art & Painting">
             <h3>Art & Painting</h3>
             <p>Explore colors, shapes, and creativity through painting and drawing</p>
         </div>
         <div class="service-card">
-            <img src="https://via.placeholder.com/300x200" alt="Crafts & DIY">
+            <img src="images/crafts.jpg" alt="Crafts & DIY">
             <h3>Crafts & DIY</h3>
             <p>Build and create amazing projects with hands-on crafting activities</p>
         </div>
         <div class="service-card">
-            <img src="https://via.placeholder.com/300x200" alt="Music & Drama">
+            <img src="images/music.jpg" alt="Music & Drama">
             <h3>Music & Drama</h3>
             <p>Express yourself through music, acting, and performing arts</p>
         </div>
@@ -47,31 +52,79 @@
         <p class="portfolio-intro">Showcasing amazing work from our creative students</p>
         <div class="gallery">
             <div class="gallery-item">
-                <img src="C:\Users\MV NGOBENI\Pictures\1760596383355.jpg" alt="Student Artwork 1">
+                <img src="images/gallery1.jpg" alt="Student Artwork 1">
             </div>
             <div class="gallery-item">
-                <img src="C:\Users\MV NGOBENI\Pictures\1760596383355.jpg" alt="Student Artwork 2">
+                <img src="images/gallery2.jpg" alt="Student Artwork 2">
             </div>
             <div class="gallery-item">
-                <img src="C:\Users\MV NGOBENI\Pictures\1760596383355.jpg" alt="Student Artwork 3">
+                <img src="images/gallery3.jpg" alt="Student Artwork 3">
             </div>
             <div class="gallery-item">
-                <img src="C:\Users\MV NGOBENI\Pictures\1760596383355.jpg" alt="Student Artwork 4">
+                <img src="images/gallery4.jpg" alt="Student Artwork 4">
             </div>
             <div class="gallery-item">
-                <img src="C:\Users\MV NGOBENI\Pictures\1760596383355.jpg" alt="Student Artwork 5">
+                <img src="images/gallery5.jpg" alt="Student Artwork 5">
             </div>
             <div class="gallery-item">
-                <img src="C:\Users\MV NGOBENI\Pictures\1760596383355.jpg" alt="Student Artwork 6">
+                <img src="images/gallery6.jpg" alt="Student Artwork 6">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>Little Crafters University is dedicated to nurturing creativity and imagination in children of all ages. Since our founding, we've inspired thousands of young minds to explore their talents through art, crafts, music, and drama.</p>
+        <div class="about-cards">
+            <div class="about-card">
+                <h3>🎨 Creative Vision</h3>
+                <p>We believe every child is an artist. Our mission is to unlock potential and foster self-expression.</p>
+            </div>
+            <div class="about-card">
+                <h3>👥 Expert Instructors</h3>
+                <p>Our passionate educators bring years of experience and a love for teaching young creatives.</p>
+            </div>
+            <div class="about-card">
+                <h3>🌟 Safe Environment</h3>
+                <p>We provide a supportive, inclusive space where kids feel comfortable exploring new ideas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <h2>What Parents Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <p class="quote">"My daughter's confidence has soared since joining! She absolutely loves the art classes."</p>
+                <p class="author">— Sarah M., Parent</p>
+            </div>
+            <div class="testimonial">
+                <p class="quote">"The instructors are amazing. They really bring out the best in every child."</p>
+                <p class="author">— David L., Parent</p>
+            </div>
+            <div class="testimonial">
+                <p class="quote">"Best investment in my child's development. Highly recommended!"</p>
+                <p class="author">— Emma R., Parent</p>
             </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@littlecraftersuniversity.com</p>
-        <p>Phone: (0732996519)</p>
-        <p>Address: 123 Main Street, Your City</p>
+        <div class="contact-info">
+            <div class="contact-card">
+                <h3>📧 Email</h3>
+                <p><a href="mailto:info@littlecraftersuniversity.com">info@littlecraftersuniversity.com</a></p>
+            </div>
+            <div class="contact-card">
+                <h3>📞 Phone</h3>
+                <p><a href="tel:+27732996519">(0732996519)</a></p>
+            </div>
+            <div class="contact-card">
+                <h3>📍 Location</h3>
+                <p>2244 MABILIGWE, Your City</p>
+            </div>
+        </div>
     </section>
 
     <footer>
